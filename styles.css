@@ -113,53 +113,69 @@ pre {
 
 /* Carousel part */
 .bg-img1 {
+    max-width: 100%;
+    height: auto;
     background-color: #000;
     background-size: cover;
     background-image: url(/Tributepage/img/451046190-357109904097708-5118-7211-9530-1721653010.jpg);
 }
 
 .bg-img2 {
+    max-width: 100%;
+    height: auto;
     background-color: #000;
     background-size: cover;
     background-image: url(/Tributepage/img/362797_NPTTHOA.jpg);
 }
 
 .bg-img3 {
+    max-width: 100%;
+    height: auto;
     background-color: #000;
     background-size: cover;
     background-image: url(/Tributepage/img/VT-9-JPG-7884-1721663385.jpg);
 }
 
 .bg-img4 {
+    max-width: 100%;
+    height: auto;
     background-color: #000;
     background-size: cover;
     background-image: url(/Tributepage/img/viewimage-jpeg-6614-1721653010.jpg);
 }
 
 .bg-img5 {
+    max-width: 100%;
+    height: auto;
     background-color: #000;
     background-size: cover;
     background-image: url(/Tributepage/img/QUOTE-1-PC-8807-1721801279.png);
 }
 
 .bg-img6 {
+    max-width: 100%;
+    height: auto;
     background-color: #000;
     background-size: cover;
     background-image: url(/Tributepage/img/QUOTE-2-PC-6913-1721801279.png);
 }
 
 .bg-img7 {
+    max-width: 100%;
+    height: auto;
     background-color: #000;
     background-size: cover;
     background-image: url(/Tributepage/img/QUOTE-3-PC-1997-1721801279.png);
 }
 
 .bg-img8 {
+    max-width: 100%;
+    height: auto;
     background-color: #000;
     background-size: cover;
     background-image: url(/Tributepage/img/QUOTE-4-PC-9342-1721801279.png);
 }
 
 .carousel-item {
-    height: 677px;
+    height: 700px;
 }
