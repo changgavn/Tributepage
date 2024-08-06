@@ -112,71 +112,30 @@ pre {
 }
 
 /* Carousel part */
-.bg-img1 {
-    width: 100%;
-    height: auto;
-    background-color: #000;
-    background-size: cover;
-    background-image: url(/Tributepage/img/451046190-357109904097708-5118-7211-9530-1721653010.jpg);
-}
 
-.bg-img2 {
-    width: 100%;
-    height: auto;
-    background-color: #000;
-    background-size: cover;
-    background-image: url(/Tributepage/img/362797_NPTTHOA.jpg);
-}
-
-.bg-img3 {
-    width: 100%;
-    height: auto;
-    background-color: #000;
-    background-size: cover;
-    background-image: url(/Tributepage/img/VT-9-JPG-7884-1721663385.jpg);
-}
-
-.bg-img4 {
-    width: 100%;
-    height: auto;
-    background-color: #000;
-    background-size: cover;
-    background-image: url(/Tributepage/img/viewimage-jpeg-6614-1721653010.jpg);
-}
-
-.bg-img5 {
-    width: 100%;
-    height: auto;
-    background-color: #000;
-    background-size: cover;
-    background-image: url(/Tributepage/img/QUOTE-1-PC-8807-1721801279.png);
-}
-
-.bg-img6 {
-    width: 100%;
-    height: auto;
-    background-color: #000;
-    background-size: cover;
-    background-image: url(/Tributepage/img/QUOTE-2-PC-6913-1721801279.png);
-}
-
-.bg-img7 {
-    width: 100%;
-    height: auto;
-    background-color: #000;
-    background-size: cover;
-    background-image: url(/Tributepage/img/QUOTE-3-PC-1997-1721801279.png);
-}
-
-.bg-img8 {
-    width: 100%;
-    height: auto;
-    background-color: #000;
-    background-size: cover;
-    background-image: url(/Tributepage/img/QUOTE-4-PC-9342-1721801279.png);
-}
 
 .carousel-item {
-    width: 100%;
     height: 100vh;
+    /* Full viewport height */
+}
+
+.carousel-item img {
+    object-fit: cover;
+    /* Ensure images cover the carousel area */
+    height: 100%;
+    width: 100%;
+}
+
+/* Carousel responsive for tablet */
+@media screen and (min-width: 601px) and (max-width:992px) {
+    .carousel-item {
+        height: 50vh;
+    }
+}
+
+/* Carousel responsive for mobile */
+@media screen and (max-width: 600px) {
+    .carousel-item {
+        height: 33.33vh;
+    }
 }
