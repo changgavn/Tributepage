@@ -115,7 +115,7 @@ pre {
 
 
 .carousel-item {
-    height: 100vh;
+    height: 100%;
     /* Full viewport height */
 }
 
